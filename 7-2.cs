@@ -11,7 +11,7 @@ for (int i = 0; i < max; i++)
     {
         int x = Math.Abs(i - positions[j]);
 
-        int f = 0;
+        int f = 0; // editors note: this variable was added for debugging purposes but not removed from the end-program.
         for (int k = 1; k <= x; k++)
         {
             f += k;
