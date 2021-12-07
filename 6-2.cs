@@ -2,7 +2,7 @@
 using System.Numerics;
 
 List<int> fish = (from x in Console.ReadLine().Split(',') select int.Parse(x)).ToList();
-Dictionary<int, BigInteger> dict = new();
+Dictionary<int, BigInteger> dict = new(); // editor's note: this should definitely be an array
 
 for (int i = 0; i <= 8; i++) dict.Add(i, 0);
 
