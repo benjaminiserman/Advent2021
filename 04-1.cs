@@ -56,7 +56,7 @@ while (true)
                 {
                     goto NextRow;
                 }
-}
+            }
 
             found = board;
             goto End;
