@@ -7,4 +7,8 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="InputHandler" Version="1.2.0" />
+  </ItemGroup>
+
 </Project>
