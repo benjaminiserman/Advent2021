@@ -1,5 +1,4 @@
 ﻿/*
-using System.Linq;
 using InputHandler;
 
 int nextID = 0;
@@ -20,7 +19,7 @@ while (true)
 			{
 				mA = a;
 				mB = b;
-				
+
 				goto Next;
 			}
 		}
@@ -41,15 +40,18 @@ Next:
 
 foreach (Cuboid instruction in instructions)
 {
+	//Console.WriteLine($"i: {instruction}");
 	foreach (Cuboid cuboid in cuboids)
 	{
 		if (instruction.Contains(cuboid))
 		{
 			cuboid.on = instruction.on;
+			//Console.WriteLine($"turning {cuboid.Volume} {cuboid.on}");
 		}
 	}
 }
 
+Console.WriteLine($"count: {cuboids.Count}");
 foreach (Cuboid cuboid in cuboids)
 {
 	Console.WriteLine(cuboid);
@@ -83,7 +85,7 @@ class Cuboid
 		this.id = id;
 	}
 
-	private Cuboid(int x1, int x2, int y1, int y2, int z1, int z2, Cuboid parent)
+	public Cuboid(int x1, int x2, int y1, int y2, int z1, int z2, Cuboid parent)
 	{
 		sx = Min(x1, x2);
 		ex = Max(x1, x2);
@@ -115,21 +117,21 @@ class Cuboid
 		return this;
 	}
 
-	public bool Contains(Cuboid c) => 
+	public bool Contains(Cuboid c) =>
 		sx <= c.sx && ex >= c.ex &&
 		sy <= c.sy && ey >= c.ey &&
 		sz <= c.sz && ez >= c.ez;
 
 	public static bool Intersect(Cuboid a, Cuboid b)
 	{
-		if (a.sx <= b.sx && b.sx <= a.ex ||
-			b.sx <= a.sx && a.sx <= b.ex)
+		if ((a.sx <= b.sx && b.sx <= a.ex) ||
+			(b.sx <= a.sx && a.sx <= b.ex))
 		{
-			if (a.sy <= b.sy && b.sy <= a.ey ||
-				b.sy <= a.sy && a.sy <= b.ey)
+			if ((a.sy <= b.sy && b.sy <= a.ey) ||
+				(b.sy <= a.sy && a.sy <= b.ey))
 			{
-				if (a.sz <= b.sz && b.sz <= a.ez ||
-					b.sz <= a.sz && a.sz <= b.ez)
+				if ((a.sz <= b.sz && b.sz <= a.ez) ||
+					(b.sz <= a.sz && a.sz <= b.ez))
 				{
 					return true;
 				}
@@ -153,19 +155,37 @@ class Cuboid
 			asx = a.sx;
 			aex = a.ex;
 
-			bx = Min(a.ex, b.ex);
-			bsx = b.ex;
+			if (a.ex < b.ex)
+			{
+				bx = a.ex;
+				bsx = b.ex;
+			}
+			else
+			{
+				bx = b.ex;
+				bsx = a.ex;
+			}
+
 			bex = b.sx;
 
 			dx = -1;
 		}
 		else
 		{
-			ax = b.ex;
-			asx = a.ex;
+			if (b.ex < a.ex)
+			{
+				ax = b.ex;
+				asx = a.ex;
+			}
+			else
+			{
+				ax = a.ex;
+				asx = b.ex;
+			}
+
 			aex = a.sx;
 
-			bx = Max(a.sx, b.sx);
+			bx = a.sx;
 			bsx = b.sx;
 			bex = b.ex;
 
@@ -178,19 +198,37 @@ class Cuboid
 			asy = a.sy;
 			aey = a.ey;
 
-			by = Min(a.ey, b.ey);
-			bsy = b.ey;
+			if (a.ey < b.ey)
+			{
+				by = a.ey;
+				bsy = b.ey;
+			}
+			else
+			{
+				by = b.ey;
+				bsy = a.ey;
+			}
+
 			bey = b.sy;
 
 			dy = -1;
 		}
 		else
 		{
-			ay = b.ey;
-			asy = a.ey;
+			if (b.ey < a.ey)
+			{
+				ay = b.ey;
+				asy = a.ey;
+			}
+			else
+			{
+				ay = a.ey;
+				asy = b.ey;
+			}
+
 			aey = a.sy;
 
-			by = Max(a.sy, b.sy);
+			by = a.sy;
 			bsy = b.sy;
 			bey = b.ey;
 
@@ -203,19 +241,37 @@ class Cuboid
 			asz = a.sz;
 			aez = a.ez;
 
-			bz = Min(a.ez, b.ez);
-			bsz = b.ez;
+			if (a.ez < b.ez)
+			{
+				bz = a.ez;
+				bsz = b.ez;
+			}
+			else
+			{
+				bz = b.ez;
+				bsz = a.ez;
+			}
+
 			bez = b.sz;
 
 			dz = -1;
 		}
 		else
 		{
-			az = b.ez;
-			asz = a.ez;
+			if (b.ez < a.ez)
+			{
+				az = b.ez;
+				asz = a.ez;
+			}
+			else
+			{
+				az = a.ez;
+				asz = b.ez;
+			}
+
 			aez = a.sz;
 
-			bz = Max(a.sz, b.sz);
+			bz = a.sz;
 			bsz = b.sz;
 			bez = b.ez;
 
@@ -252,7 +308,7 @@ class Cuboid
 		{
 			if (b) return null;
 
-			return new Cuboid(x1, x2, y1, y2, z1, z2, parent);//.Log();
+			return new Cuboid(x1, x2, y1, y2, z1, z2, parent).Log();
 		}
 	}
 
