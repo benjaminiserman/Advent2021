@@ -38,8 +38,6 @@ int[][] found = null;
 //
 //return;
 
-using System;
-
 while (true)
 {
     drawn.Add(moves[drawn.Count]);
