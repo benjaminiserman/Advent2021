@@ -1,5 +1,4 @@
-﻿/*
-using InputHandler;
+﻿using InputHandler;
 
 List<Scanner> scanners = new();
 
@@ -191,4 +190,3 @@ struct Vector3
     public static bool operator ==(Vector3 a, Vector3 b) => a.x == b.x && a.y == b.y && a.z == b.z;
     public static bool operator !=(Vector3 a, Vector3 b) => a.x != b.x || a.y != b.y || a.z != b.z;
 }
-*/

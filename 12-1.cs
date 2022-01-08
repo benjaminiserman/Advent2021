@@ -1,5 +1,4 @@
-﻿/*
-List<(string, string)> connections = new();
+﻿List<(string, string)> connections = new();
 
 while (true)
 {
@@ -35,4 +34,3 @@ int Traverse(List<(string, string)> connections, string path, string current)
 
     return count;
 }
-*/

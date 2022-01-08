@@ -1,5 +1,4 @@
-﻿/*
-using InputHandler;
+﻿using InputHandler;
 
 List<Instruction> instructions = Input.ListUntilEmpty(Console.ReadLine, x => new Instruction(x));
 
@@ -63,4 +62,3 @@ struct Instruction
 		ez = int.Parse(split[8]);
 	}
 }
-*/

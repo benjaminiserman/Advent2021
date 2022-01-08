@@ -1,5 +1,4 @@
-﻿/*
-int playerOneScore = 0;
+﻿int playerOneScore = 0;
 int playerTwoScore = 0;
 
 int playerOnePosition = int.Parse(Console.ReadLine().Split()[^1]);
@@ -32,4 +31,3 @@ int Roll()
 	if (currentRoll > 100) currentRoll = 1;
 	return currentRoll;
 }
-*/

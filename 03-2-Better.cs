@@ -1,5 +1,4 @@
-﻿/*
-long test = 111111111111;
+﻿long test = 111111111111;
 int digits = test.ToString().Length;
 List<string> oxygen = new(), co2 = new();
 
@@ -71,4 +70,3 @@ for (int i = 0; i < digits; i++)
 }
 
 Console.WriteLine($"Key: {oxygenMeter * co2Meter}");
-*/

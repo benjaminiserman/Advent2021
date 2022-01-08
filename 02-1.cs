@@ -1,5 +1,4 @@
-﻿/*
-int location = 0, depth = 0;
+﻿int location = 0, depth = 0;
 while (true)
 {
     string got = Console.ReadLine();
@@ -23,4 +22,3 @@ while (true)
 }
 
 Console.WriteLine($"Key: {location * depth}");
-*/

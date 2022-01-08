@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> map = new();
+﻿List<int[]> map = new();
 
 while (true)
 {
@@ -65,4 +64,3 @@ for (int i = 0; i < map.Count; i++)
 var sorted = (from int x in basins.Values orderby -x select x).ToArray();
 
 Console.WriteLine(sorted[0] * sorted[1] * sorted[2]);
-*/

@@ -1,5 +1,4 @@
-﻿/*
-int count = 0;
+﻿int count = 0;
 
 while (true)
 {
@@ -48,4 +47,3 @@ while (true)
 }
 
 Console.WriteLine(count);
-*/

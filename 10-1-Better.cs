@@ -1,5 +1,4 @@
-﻿/*
-Dictionary<char, char> braces = new()
+﻿Dictionary<char, char> braces = new()
 {
     { '(', ')' },
     { '[', ']' },
@@ -42,4 +41,3 @@ Dictionary<char, int> scores = new()
 };
 
 Console.WriteLine(counts.Values.Zip(scores.Values, (count, score) => (long)(count * score)).Sum());
-*/

@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> map = new();
+﻿List<int[]> map = new();
 
 while (true)
 {
@@ -31,4 +30,3 @@ for (int i = 0; i < map.Count; i++)
 }
 
 Console.WriteLine(sum);
-*/

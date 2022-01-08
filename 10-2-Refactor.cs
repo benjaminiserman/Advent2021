@@ -1,5 +1,4 @@
-﻿/*
-Dictionary<char, char> braces = new()
+﻿Dictionary<char, char> braces = new()
 {
     { '(', ')' },
     { '[', ']' },
@@ -59,4 +58,3 @@ while (true)
 
 var sorted = (from x in scores orderby x select x).ToArray();
 Console.WriteLine(sorted[sorted.Length / 2]);
-*/

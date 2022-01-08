@@ -1,4 +1,4 @@
-﻿/* // I solved both parts of this one by hand, but here's a cute checker program:
+﻿// I solved both parts of this one by hand, but here's a cute checker program:
 using InstructionList = System.Collections.Generic.List<(int, char, CharOrInt)>;
 using InputHandler;
 
@@ -166,4 +166,3 @@ public struct CharOrInt
 
 
 }
-*/

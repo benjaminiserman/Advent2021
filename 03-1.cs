@@ -1,4 +1,4 @@
-﻿/*int count = 0;
+﻿int count = 0;
 long test = 111111111111;// 111111111111;
 int length = test.ToString().Length;
 int[] oneCounts = new int[length];
@@ -33,4 +33,3 @@ Console.WriteLine("Answer:");
 Console.WriteLine($"{gamma}: {Convert.ToString(gamma, 2)}");
 Console.WriteLine($"{epsilon}: {Convert.ToString(epsilon, 2)}");
 Console.WriteLine(gamma * epsilon);
-*/

@@ -1,5 +1,4 @@
-﻿/*
-string polymer = Console.ReadLine();
+﻿string polymer = Console.ReadLine();
 Dictionary<string, char> pairs = new();
 
 Console.ReadLine();
@@ -37,4 +36,3 @@ foreach (char c in copy)
 
 var sorted = (from x in counts.Values orderby x select x).ToArray();
 Console.WriteLine(sorted[^1] - sorted[0]);
-*/

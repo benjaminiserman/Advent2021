@@ -1,5 +1,4 @@
-﻿/*
-Dictionary<char, char> braces = new()
+﻿Dictionary<char, char> braces = new()
 {
     { '(', ')' },
     { '[', ']' },
@@ -37,4 +36,3 @@ while (true)
 }
 
 Console.WriteLine(counts[')'] * 3 + counts[']'] * 57 + counts['}'] * 1197 + counts['>'] * 25137);
-*/

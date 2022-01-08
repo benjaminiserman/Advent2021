@@ -1,5 +1,4 @@
-﻿/*
-using System.Numerics;
+﻿using System.Numerics;
 
 List<int> fish = (from x in Console.ReadLine().Split(',') select int.Parse(x)).ToList();
 Dictionary<int, BigInteger> dict = new(); // editor's note: this should definitely be an array
@@ -30,4 +29,3 @@ foreach (BigInteger value in dict.Values)
 }
 
 Console.WriteLine(sum);
-*/

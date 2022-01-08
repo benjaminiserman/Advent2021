@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> map = new();
+﻿List<int[]> map = new();
 List<bool[]> marks = new();
 
 while (true)
@@ -32,4 +31,3 @@ while (queue.TryDequeue(out (int x, int y) t, out int p))
 }
 
 Console.WriteLine(risk);
-*/

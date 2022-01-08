@@ -1,5 +1,4 @@
-﻿/*
-using InputHandler;
+﻿using InputHandler;
 
 List<Pair> list = Input.ListUntilEmpty<Pair>(Console.ReadLine, s => new Pair(s));
 
@@ -214,4 +213,3 @@ class Pair
         return x;
     }
 }
-*/

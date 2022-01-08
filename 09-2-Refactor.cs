@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> map = new();
+﻿List<int[]> map = new();
 
 while (true) // get inputs
 {
@@ -66,4 +65,3 @@ for (int i = 0; i < map.Count; i++) // map basins for all points that != 9
 var sorted = (from int x in basins.Values orderby -x select x).ToArray();
 
 Console.WriteLine(sorted[0] * sorted[1] * sorted[2]);
-*/

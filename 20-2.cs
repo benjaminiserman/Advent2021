@@ -1,4 +1,4 @@
-﻿/* // this solution is really really bad
+﻿// this solution is really really bad
 using InputHandler;
 
 string algorithm = Console.ReadLine();
@@ -86,4 +86,3 @@ int Print(List<bool[]> a)
     Console.WriteLine();
     return count;
 }
-*/

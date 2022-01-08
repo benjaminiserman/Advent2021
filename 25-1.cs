@@ -1,5 +1,4 @@
-﻿/*
-using InputHandler;
+﻿using InputHandler;
 
 List<List<Cucumber>> list = Input.ListUntilEmpty(Console.ReadLine, s => (from c in s select Map(c)).ToList());
 
@@ -75,4 +74,3 @@ enum Cucumber
 {
 	None, East, South, 
 }
-*/

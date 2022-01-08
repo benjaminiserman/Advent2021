@@ -1,5 +1,4 @@
-﻿/*
-List<int> fish = (from x in Console.ReadLine().Split(',') select int.Parse(x)).ToList();
+﻿List<int> fish = (from x in Console.ReadLine().Split(',') select int.Parse(x)).ToList();
 
 for (int i = 0; i < 80; i++)
 {
@@ -16,4 +15,3 @@ for (int i = 0; i < 80; i++)
 }
 
 Console.WriteLine(fish.Count);
-*/

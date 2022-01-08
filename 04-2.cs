@@ -1,5 +1,4 @@
-﻿/*
-int[] moves = (from string x in Console.ReadLine().Split(',') select int.Parse(x)).ToArray();
+﻿int[] moves = (from string x in Console.ReadLine().Split(',') select int.Parse(x)).ToArray();
 
 List<int[][]> boards = new();
 int boardSize = 5;
@@ -93,4 +92,3 @@ foreach (var x in found)
 }
 
 Console.WriteLine(sum * drawn[^1]);
-*/

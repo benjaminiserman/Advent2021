@@ -1,5 +1,4 @@
-﻿/*
-// A better solution that utilizes a sliding window.
+﻿// A better solution that utilizes a sliding window.
 List<int> depths = new();
 
 while (true)
@@ -16,4 +15,3 @@ for (int i = 0; i < depths.Count - 3; i++)
 }
 
 Console.WriteLine($"Solution is: {count}");
-*/

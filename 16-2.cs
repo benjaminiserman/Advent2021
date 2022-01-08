@@ -1,5 +1,4 @@
-﻿/*
-using InputHandler; // hehe I brought in my input library (check it out on my github!)
+﻿using InputHandler; // hehe I brought in my input library (check it out on my github!)
 using System.Numerics;
 
 string s = Console.ReadLine();
@@ -138,4 +137,3 @@ struct Packet
         return x;
     }
 }
-*/

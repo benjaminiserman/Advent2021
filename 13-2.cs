@@ -1,5 +1,4 @@
-﻿/*
-List<(int, int)> points = new();
+﻿List<(int, int)> points = new();
 
 while (true)
 {
@@ -55,4 +54,3 @@ for (int i = 0; i <= yMax; i++)
 
     Console.WriteLine();
 }
-*/

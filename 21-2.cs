@@ -1,5 +1,4 @@
-﻿/*
-int playerOneStart = int.Parse(Console.ReadLine().Split()[^1]);
+﻿int playerOneStart = int.Parse(Console.ReadLine().Split()[^1]);
 int playerTwoStart = int.Parse(Console.ReadLine().Split()[^1]);
 
 Universe.playerOneStart = playerOneStart;
@@ -89,4 +88,3 @@ class Universe
 		_ => throw new Exception("sus")
 	};
 }
-*/

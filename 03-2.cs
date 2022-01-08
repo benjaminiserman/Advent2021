@@ -1,5 +1,4 @@
-﻿/*
-int count = 0;
+﻿int count = 0;
 long test = 111111111111;// 111111111111;
 int length = test.ToString().Length;
 List<string> oxygen = new(), co2 = new();
@@ -72,4 +71,3 @@ for (int i = 0; i < length; i++)
 }
 
 Console.WriteLine($"Key: {fO * fC}");
-*/

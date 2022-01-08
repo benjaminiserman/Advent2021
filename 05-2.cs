@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> lines = new();
+﻿List<int[]> lines = new();
 
 while (true)
 {
@@ -63,4 +62,3 @@ for (int y = 0; y < max; y++)
 }
 
 Console.WriteLine($"Key: {count}");
-*/

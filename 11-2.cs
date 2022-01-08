@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> array = new();
+﻿List<int[]> array = new();
 List<bool[]> marks = new();
 
 while (true)
@@ -83,4 +82,3 @@ void Mark(int i, int j)
 
     array[i][j]++;
 }
-*/

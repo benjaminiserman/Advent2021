@@ -1,5 +1,4 @@
-﻿/*
-using InputHandler;
+﻿using InputHandler;
 
 List<Cuboid> instructions = Input.ListUntilEmpty(Console.ReadLine, x => new Cuboid(x));
 List<Cuboid> cuboids = new();
@@ -183,4 +182,3 @@ class CuboidEqualityComparer : IEqualityComparer<Cuboid>
 	public bool Equals(Cuboid x, Cuboid y) => x == y;
 	public int GetHashCode(Cuboid q) => (int)(q.sx ^ q.ex ^ q.sy ^ q.ey ^ q.sz ^ q.ez);
 }
-*/

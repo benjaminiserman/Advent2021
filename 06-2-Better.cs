@@ -1,5 +1,4 @@
-﻿/*
-List<int> fish = (from x in Console.ReadLine().Split(',') select int.Parse(x)).ToList();
+﻿List<int> fish = (from x in Console.ReadLine().Split(',') select int.Parse(x)).ToList();
 long[] array = new long[9];
 
 foreach (int f in fish) array[f]++;
@@ -26,4 +25,3 @@ foreach (long value in array)
 }
 
 Console.WriteLine(sum);
-*/

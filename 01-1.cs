@@ -1,5 +1,4 @@
-﻿/*
-List<int> depths = new();
+﻿List<int> depths = new();
 
 while (true)
 {
@@ -15,4 +14,3 @@ for (int i = 0; i < depths.Count - 1; i++)
 }
 
 Console.WriteLine($"Solution is: {count}");
-*/

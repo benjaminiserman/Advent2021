@@ -1,4 +1,4 @@
-﻿/* // the solutions for today are bad and grossly overfit.
+﻿// the solutions for today are bad and grossly overfit.
 string input = Console.ReadLine();
 
 string[] split = (from x in input["target area: ".Length..].Split(new char[] { '=', '.', ',' }, StringSplitOptions.RemoveEmptyEntries) select x).ToArray();
@@ -55,4 +55,3 @@ Console.WriteLine(heights.Count);
 
     return (false, int.MinValue);
 }
-*/

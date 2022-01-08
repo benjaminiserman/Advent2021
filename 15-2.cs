@@ -1,5 +1,4 @@
-﻿/*
-List<int[]> startingMap = new();
+﻿List<int[]> startingMap = new();
 
 while (true)
 {
@@ -90,4 +89,3 @@ while (queue.TryDequeue(out (int x, int y) t, out int p))
 }
 
 Console.WriteLine(risk);
-*/

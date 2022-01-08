@@ -1,5 +1,4 @@
-﻿/*
-Console.WriteLine("Calculating...");
+﻿Console.WriteLine("Calculating...");
 new Board(false).Enumerate();
 Console.WriteLine(Board.costs.Min());
 
@@ -351,4 +350,3 @@ class Board
 		public static bool operator !=(Position a, Position b) => !(a == b);
 	}
 }
-*/

@@ -1,5 +1,4 @@
-﻿/*
-using System.Numerics;
+﻿using System.Numerics;
 
 string polymer = Console.ReadLine();
 Dictionary<string, char> pairs = new();
@@ -55,4 +54,3 @@ letterCounts[polymer[^1]]++;
 
 var sorted = (from x in letterCounts.Values orderby x select x).ToArray();
 Console.WriteLine((sorted[^1] - sorted[0]) / 2);
-*/

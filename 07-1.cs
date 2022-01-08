@@ -1,5 +1,4 @@
-﻿/*
-int[] positions = (from string s in Console.ReadLine().Split(',') select int.Parse(s)).ToArray();
+﻿int[] positions = (from string s in Console.ReadLine().Split(',') select int.Parse(s)).ToArray();
 
 int minFuel = int.MaxValue;
 
@@ -15,4 +14,3 @@ for (int i = 0; i < positions.Length; i++)
 }
 
 Console.WriteLine(minFuel);
-*/

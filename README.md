@@ -1,6 +1,8 @@
 ﻿The collection of C# scripts I created to solve Advent of Code 2021.
 I was trying to complete these problems as fast as possible, so many of them have better solutions provided that I wrote after the fact.
 
+Each file is its own separate script. To run, try compiling a file on its own.
+
 File Naming Conventions:
 
 Each name is two numbers separated by a hyphen (-).

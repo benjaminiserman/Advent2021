@@ -1,5 +1,4 @@
-﻿/*
-List<(int, int)> points = new();
+﻿List<(int, int)> points = new();
 
 int max = 0;
 while (true)
@@ -53,4 +52,3 @@ for (int i = 0; i < max; i++)
 }
 
 Console.Write(count);
-*/
