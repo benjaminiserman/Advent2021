@@ -5,7 +5,7 @@ I was trying to complete these problems as fast as possible, so many of them hav
 
 Each file is its own separate script. To run, try compiling a file on its own.
 
-# File Naming Conventions
+## File Naming Conventions
 
 Each name is two numbers separated by a hyphen (-).
 The first numbers is the day, the second numbers is the part.
@@ -15,7 +15,7 @@ These represent alternate solutions to the same problem that I wrote after initi
 
 For example: 5-2.cs represents my initial solution to Day 5 Part 2.
 
-# Usage
+## Usage
 
 - C#
 1. Download the file relating to the day and part you want to solve.
@@ -23,3 +23,7 @@ For example: 5-2.cs represents my initial solution to Day 5 Part 2.
 3. Replace the main cs file of this new project with the file you downloaded.
 4. Build the project and run.
 5. Use CTRL+A, CTRL+C on your puzzle input, then paste it into the console.
+
+## License
+
+![License](https://img.shields.io/github/license/winggar/Advent2021?style=for-the-badge)
