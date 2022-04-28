@@ -17,7 +17,6 @@ For example: 5-2.cs represents my initial solution to Day 5 Part 2.
 
 ## Usage
 
-- C#
 1. Download the file relating to the day and part you want to solve.
 2. Create a new C# Console project in your IDE of choice.
 3. Replace the main cs file of this new project with the file you downloaded.
