@@ -8,7 +8,7 @@ Each file is its own separate script. To run, try compiling a file on its own.
 ## File Naming Conventions
 
 Each name is two numbers separated by a hyphen (-).
-The first numbers is the day, the second numbers is the part.
+The first number is the day, the second number is the part.
 
 Optionally, a name has a second hyphen with a comment after it.
 These represent alternate solutions to the same problem that I wrote after initially completing the problem.
